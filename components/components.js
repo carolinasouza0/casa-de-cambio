@@ -7,7 +7,9 @@ export function createLi(coinName, coinValue) {
   icon.src = './assets/coin.png';
 
   li.classList = 'list-coin';
-  li.innerHTML = `${icon.outerHTML} ${coinName} <span>${coinValue}<span>`;
+  const tofixedValue = 3;
+  li.innerHTML = `${icon.outerHTML} 
+  ${coinName} <span>${coinValue.toFixed(tofixedValue)}<span>`;
   listOfExchange.appendChild(li);
   return li;
 }
