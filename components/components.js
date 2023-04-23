@@ -3,8 +3,11 @@ const title = document.querySelector('#title');
 
 export function createLi(coinName, coinValue) {
   const li = document.createElement('li');
+  const icon = document.createElement('img');
+  icon.src = './assets/coin.png';
+
   li.classList = 'list-coin';
-  li.innerHTML = `${coinName} <span>${coinValue}<span>`;
+  li.innerHTML = `${icon.outerHTML} ${coinName} <span>${coinValue}<span>`;
   listOfExchange.appendChild(li);
   return li;
 }
