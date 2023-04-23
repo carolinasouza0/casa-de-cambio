@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #96EB95;
+  --grey: rgba(255, 255, 255, 0.06);
+  --grey2:  rgba(0, 0, 0, 0.2);
+  --yellow: #FFE713;
+}
+
+body {
+  background-image: url('../assets/Group\ 2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Fira Code';
+  min-height: 100vh;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 57px;
+}
+
+form {
+  color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+#inputCoin {
+  width: 171px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--grey);
+  color: white;
+}
+
+input, button {
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+
+#btnSearch {
+  background-color: var(--green);
+  padding: 0.5rem 2rem;
+  font-weight: 700;
+  color: #373737;
+}
+
+#btnSearch:hover {
+  background-color: #65a372;
+}
+
+div {
+  display: flex;
+}
+
+header > div > h1 {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 79px;
+  margin: 1.5rem 0; 
+}
+
+header > div > h1 > span {
+  color: var(--green);
+}
+
+header > label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+main {
+  width: 900px;
+  height: 583px;
+  background-color: var(--grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  color: white;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#exchangeBoard {
+  display: flex;
+  flex-direction: column;
+}
+
+#lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  overflow-y: auto;
+  gap: 22px;
+  height: 500px;
+}
+
+.list-coin {
+  width: 150px;
+  height: 44px;
+  border-radius: 5px;
+  background-color: var(--grey2);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#lista > li > span {
+  color: var(--yellow);
+}

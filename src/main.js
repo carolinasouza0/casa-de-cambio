@@ -7,7 +7,8 @@ const input = document.querySelector('#inputCoin');
 const btn = document.querySelector('#btnSearch');
 const listOfExchange = document.querySelector('#lista');
 
-const display = () => {
+const display = (event) => {
+  event.preventDefault();
   const searchedCoin = (input.value).toUpperCase();
   listOfExchange.innerHTML = '';
 
