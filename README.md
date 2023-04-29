@@ -1,7 +1,9 @@
 # Casa de Câmbio
 
 O projeto da casa de câmbio é uma aplicação que busca a conversão da taxa de uma moeda para diversas outras.
-O protótipo da aplicação está [nesse link](https://www.figma.com/file/H3gBEiF0F94VESCGx9DD17/Casa-de-C%C3%A2mbio?node-id=0%3A1).
+Aplicação funcionando:
+
+![Aplicação] file:///home/carolina/%C3%81rea%20de%20Trabalho/trybe/Grava%C3%A7%C3%A3o%20de%20tela%20de%2022-04-2023%2022_36_19.gif
 
 ## Requisitos
 
